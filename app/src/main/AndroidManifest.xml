@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".reservaciones"></activity>
+        <activity android:name=".totalCompras" />
+        <activity android:name=".menuBebidas" />
+        <activity android:name=".menuAlimentos" />
+        <activity android:name=".Menu" />
+        <activity android:name=".menuReserOrden" />
+        <activity android:name=".registroUsuario" />
+        <activity android:name=".registroU" />
+        <activity android:name=".menu_alimentos" />
+        <activity android:name=".menu" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
